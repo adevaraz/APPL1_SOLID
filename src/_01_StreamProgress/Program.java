@@ -11,6 +11,6 @@ public class Program {
 		StreamProgressInfo streamMusicInfo = new StreamProgressInfo(music);
 		
 		System.out.println(streamFileInfo.calculateCurrentPercent());
-		System.out.println(streamFileInfo.calculateCurrentPercent());
+		System.out.println(streamMusicInfo.calculateCurrentPercent());
 	}
 }
