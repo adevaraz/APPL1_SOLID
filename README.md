@@ -8,26 +8,20 @@ Latihan ini mengikuti instruksi pada [laman ini](https://github.com/stefkavasile
 Solusi SOLID pada program tersebut ditulis dalam bahasa Java.
 
 ## 1. Stream Progress
-**_Prinsip yang digunakan: OCP dan LSP_**
+**_Prinsip yang digunakan: OCP_**
 
 Pada latihan program Stream Progress, diminta melakukan refactor agar kelas **StreamProgressInfo** dapat berjalan dengan jenis **Stream** yang berbeda. Selain itu, diharapkan jika ada stream baru, hanya perlu menambah kelas baru dengan method getter **BytesSend** dan **Length** di dalamnya.
 
-Prinsip yang pertama digunakan adalah **OCP**. Menggunakan prinsip ini, suatu kelas dapat terbuka, tetapi tidak untuk modifikasi. OCP diterapkan dalam bentuk interface **Streamable** yang berisi method getter **BytesSent** dan **Length**.
-
-Kemudian, prinsip **LSP** diterapkan dalam pengaksesan jenis stream yang berbeda oleh **StreamProgressInfo**. Akses tersebut dilakukan melalui base stream, yaitu interface **Streamable**.
+Prinsip yang digunakan adalah **OCP**. Menggunakan prinsip ini, suatu kelas dapat terbuka, tetapi tidak untuk modifikasi. OCP diterapkan dalam bentuk interface **Streamable** yang berisi method getter **BytesSent** dan **Length**.
 
 ## 2. Graphic Editor
-**_Prinsip yang digunakan: OCP dan LSP_**
+**_Prinsip yang digunakan: OCP_**
 
 Pada program Graphic Editor, diminta untuk melakukan refactor sehingga kelas **GraphicEditor** dapat menggambar bentuk apapun. Ketika ada penambahan bentuk baru, diharapkan hanya tinggal menambahkan kelas baru saja.
 
-Mirip seperti pada program Stream Progress, prinsip yang diterapkan adalah prinsip **OCP** dan **LSP**. 
+Mirip seperti pada program Stream Progress, prinsip yang diterapkan adalah prinsip **OCP**.
 
-Prinsip OCP yaitu pada interface **Shape**. Interface ini terbuka untuk ekstensi tetapi tertutup untuk modifikasi.
-
-Prinsip LSP diterapkan dalam pengaksesan bentuk yang berbeda oleh kelas **GraphicEditor**. Akses oleh **GraphicEditor** dilakukan melalui interface **Shape**.
-
-Apabila nantinya akan ditambahkan bentuk baru, maka tinggal menambahkan kelas baru yang meng-_implement_ interface Shape.
+Prinsip OCP yaitu pada interface **Shape**. Interface ini terbuka untuk ekstensi tetapi tertutup untuk modifikasi. Apabila nantinya akan ditambahkan bentuk baru, maka tinggal menambahkan kelas baru yang meng-_implement_ interface **Shape**.
 
 ## 3. Detail Printer
 **_Prinsip yang digunakan: OCP dan SRP_**
