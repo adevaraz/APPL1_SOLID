@@ -15,7 +15,6 @@ public class Music implements Streamable{
 		this.bytesSent = bytesSent;
 	}
 	
-	@Override
 	public void setLen(int len) {
 		this.len = len;
 	}
@@ -25,7 +24,6 @@ public class Music implements Streamable{
 		return this.len;
 	}
 	
-	@Override
 	public void setBytesSent(int bytesSent) {
 		this.bytesSent = bytesSent;
 	}

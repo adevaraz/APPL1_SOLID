@@ -1,9 +1,11 @@
 package _01_StreamProgress.Model;
 
+import _01_StreamProgress.Interface.Streamable;
+
 public class StreamProgressInfo {
-	private File file;
+	private Streamable file;
 	
-	public StreamProgressInfo(File file) {
+	public StreamProgressInfo(Streamable file) {
 		this.file = file;
 	}
 	

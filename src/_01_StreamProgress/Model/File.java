@@ -12,8 +12,6 @@ public class File implements Streamable {
 		this.len = len;
 		this.bytesSent = bytesSent;
 	}
-
-	@Override
 	public void setLen(int len) {
 		this.len = len;
 	}
@@ -22,8 +20,7 @@ public class File implements Streamable {
 	public int getLen() {
 		return this.len;
 	}
-
-	@Override
+	
 	public void setBytesSent(int bytesSent) {
 		this.bytesSent = bytesSent;
 	}
