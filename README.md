@@ -29,3 +29,5 @@ Prinsip OCP yaitu pada interface **Shape**. Interface ini terbuka untuk ekstensi
 Refactor yang dilakukan pada Detail Printer harus memungkinkan kelas **DetailPrinter** tidak melakukan pemeriksaan jenis employee. Kelas tersebut hanya perlu menampilkan rincian dari setiap jenis employee yang ada.
 
 Prinsip **OCP** diterapkan dengan mengubah **Employee** menjadi superclass dan **Manager** menjadi subclassnya. Maka, polymorphism melalui kelas tersebut. Sehingga, **DetailsPrinter** dapat menerapkan **SRP**, yaitu hanya melakukan _print_ saja tanpa harus memeriksa jenis employee.
+
+## 4. Recharge
