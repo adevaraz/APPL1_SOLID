@@ -20,6 +20,6 @@ public class Manager extends Employee {
 	}
 	
 	public String toString() {
-		return super.toString() + "\n===\n" + this.documents;
+		return super.toString() + "===\n" + this.documents + "\n";
 	}
 }

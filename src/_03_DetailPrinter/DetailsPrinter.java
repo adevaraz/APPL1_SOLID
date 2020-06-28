@@ -16,7 +16,7 @@ public class DetailsPrinter {
 		while(empIter.hasNext()) {
 			Employee tmp = empIter.next();
 			
-			System.out.println(tmp);
+			System.out.println(tmp.toString());
 		}
 	}
 }

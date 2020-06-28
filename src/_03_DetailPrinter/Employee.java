@@ -16,6 +16,6 @@ public class Employee {
 	}
 	
 	public String toString() {
-		return this.name;
+		return this.name + "\n";
 	}
 }
