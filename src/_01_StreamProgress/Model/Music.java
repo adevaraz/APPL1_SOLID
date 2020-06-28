@@ -8,7 +8,7 @@ public class Music implements Streamable{
 	private int len;
 	private int bytesSent;
 	
-	public Music(String artist, String album, int length, int bytesSent) {
+	public Music(String artist, String album, int len, int bytesSent) {
 		this.artist = artist;
 		this.album = album;
 		this.len = len;
