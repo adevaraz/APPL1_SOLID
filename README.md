@@ -3,7 +3,7 @@
 **Latihan mempelajari prinsip SOLID dalam Object Oriented Programming
 Oleh: 181524031 - 2A/D4 - Zara Veda Mahendra**
 
-Latihan ini mengikuti instruksi pada [laman ini] (https://github.com/stefkavasileva/SoftUni-Software-Engineering/tree/master/C%23Fundamentals/OOP-Advanced/Exercises/SOLID-Lab).
+Latihan ini mengikuti instruksi pada [laman ini](https://github.com/stefkavasileva/SoftUni-Software-Engineering/tree/master/C%23Fundamentals/OOP-Advanced/Exercises/SOLID-Lab).
 
 Solusi SOLID pada program tersebut ditulis dalam bahasa Java.
 
