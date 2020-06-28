@@ -1,7 +1,7 @@
 package _03_DetailPrinter;
 
-import java.util.Iterator;
 import java.util.List;
+import java.util.Iterator;
 
 public class DetailsPrinter {
 	private List<Employee> employee;

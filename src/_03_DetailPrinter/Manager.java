@@ -1,18 +1,18 @@
 package _03_DetailPrinter;
 
 import java.util.List;
-import java.util.Collection;
+import java.util.ArrayList;
 
 public class Manager extends Employee {
-	private Collection<String> documents;
+	private List<String> documents;
 	
 	public Manager(String name, List<String> documents) {
 		super(name);
-		this.documents = documents;
+		this.documents = new ArrayList<String>(documents);
 	}
 	
 	public void writeDocument(List<String> documents) {
-		this.documents = documents;
+		this.documents = (ArrayList<String>) documents;
 	}
 	
 	public List<String> readDocument() {
