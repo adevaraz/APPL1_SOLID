@@ -1,5 +1,5 @@
 package _05_SecurityDoor.Interface;
 
-public interface RequestPinCode extends SecurityUI {
+public interface RequestPinCode {
 	int requestPinCode();
 }
