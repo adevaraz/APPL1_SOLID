@@ -15,7 +15,7 @@ public class KeyCardCheck implements RequestKeyCard {
 	}
 	
 	public boolean validateUser() {
-		String code = securityUI.requestKeyCard();
+		String code = requestKeyCard();
 		
 		if(isValid(code)) {
 			return true;

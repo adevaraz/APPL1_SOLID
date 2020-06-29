@@ -15,7 +15,7 @@ public class PinCodeCheck implements RequestPinCode {
 	}
 	
 	public boolean validateUser() {
-		int pin = securityUI.requestPinCode();
+		int pin = requestPinCode();
 		
 		if(isValid(pin)) {
 			return true;
